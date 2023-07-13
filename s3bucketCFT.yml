@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: A sample for s3 bucket 
+Resources:
+  S3BucketCFTAWS:
+    Type: 'AWS::S3::Bucket'
+    Properties: 
+        VersioningConfiguration: 
+          Status: Enabled 
+
+
+      
